@@ -1,0 +1,10 @@
+{
+    "url": "https://www.google.com/search?q=corgi&client=firefox-b-d&sca_esv=2487ba44366803c7&biw=1440&bih=675&tbs=sbd%3A1%2Ccdr%3A1%2Ccd_min%3A2014%2Ccd_max%3A2014&tbm=nws&sxsrf=AHTn8zoyUifll-dOuZ9hCchunE20O3RzJA%3A1740560786406&ei=ktm-Z5qxGPiYkdUPm_-D2AU&ved=0ahUKEwiawoib_uCLAxV4TKQEHZv_AFs48AEQ4dUDCA8&uact=5&oq=corgi&gs_lp=Egxnd3Mtd2l6LW5ld3MiBWNvcmdpMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjeUVCBRFjXTXABeACQAQCYAT2gAcACqgEBNrgBA8gBAPgBAZgCB6AC7QLCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAgcQABiABBgKmAMAiAYBkgcBN6AHtBw&sclient=gws-wiz-news",
+    "urlArgument": "start",
+    "startPage": 1,
+    "endPage": 3,
+    "filePath": "data/",
+    "fileName": "articles",
+    "isHeadless": false,
+    "pauseTime": 2000
+}

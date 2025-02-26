@@ -1,0 +1,59 @@
+NewsScrapper
+
+NewsScrapper est un script Node.js permettant de récupérer les articles de pages Google News.
+
+Prérequis
+
+Installer Node et npm
+
+Installation
+
+Aller dans le dossier contenant le projet dans un terminal
+Exemple avec la commande
+  cd newsscrapper
+
+
+Installez les dépendances :
+
+  npm install
+
+
+Utilisation
+
+1. Lancer le code avec la commande pour utiliser la valeurs contenu dans le fichier config/default.json avec la commande : 
+
+  npm start
+
+2. Lancer le code avec un fichier de configuration personnalisé avec la commande suivante avec custom-config.json le fichier en question dans le dossier config :
+
+  npm start custom-config.json
+
+
+Structure du projet
+
+index.js : Script principal.
+
+config/ : Dossier contenant les fichiers de configuration pour lancer le script.
+
+data/ : Dossier où les fichiers CSV sont sauvegardés.
+
+
+Fonctionnement
+
+Le script charge un fichier de configuration avec les paramètres définis (URL, plages de pages, etc.). Il navigue sur Google News et récupère les données des articles en executant du script JavaScript. Une fois les informations récupèrés elles sont stockés dans un fichier CSV dans le dossier renseigné dans le fichier de config.
+
+
+Licence
+
+Ce projet est sous licence Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International (CC BY-NC 4.0).
+
+Cela signifie que :
+✅ Vous êtes libre de partager et d’adapter ce travail.
+❌ Vous ne pouvez pas l’utiliser à des fins commerciales.
+✍️ Vous devez créditer Josselin Lhopitallier dans toute utilisation ou recherche basée sur ce projet.
+
+
+Auteur
+
+Développé par Josselin Lhopitallier.
+

@@ -1,0 +1,16 @@
+{
+  "name": "newsscrapper",
+  "version": "1.0.0",
+  "description": "algorithme de scrapping de Google News",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js --"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-retry": "^1.3.3",
+    "playwright": "^1.49.1"
+  }
+}
